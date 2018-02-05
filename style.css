@@ -1,0 +1,68 @@
+html
+{
+  background: url(Images/3.jpg) no-repeat center center fixed;
+  -webkit-background-size: 100% 200%;
+  -moz-background-size: auto;
+  -o-background-size: cover;
+  color: white;
+}
+
+
+.prof-box
+{
+  width: 400px;
+  height: 400px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  font-family:inherit;
+  font-weight:400;
+  font-size: larger;
+}
+
+.prof-pic
+{
+  border-radius: 70%;
+  height: 200px;
+  width: 200px;
+}
+h1
+{
+  font-weight: 100px;
+  letter-spacing: 4;
+  font-size: 20px;
+}
+p
+{
+  font-weight: 100px:400;
+  letter-spacing: 1;
+}
+.social-links
+{
+  font-size: 20px;
+}
+.social-links a
+{
+  color : white;
+}
+.line-break
+{
+  width: 400px;
+  margin: 0 auto;
+  border-top: 1px solid white;
+}
+@media screen and (min-width:1022px) and (max-width:1028px)
+{
+  .prof-box
+
+ {
+   width : 650px;
+   height: 600px;
+   padding:100px;
+ }
+
+}
+/* Your CSS styles go here */
